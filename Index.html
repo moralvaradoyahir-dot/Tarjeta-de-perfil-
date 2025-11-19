@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tarjeta interactiva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="topbar">
+      <h1 class="logo">Mi tarjeta</h1>
+      <button id="themeToggle" class="btn small">Modo Oscuro</button>
+    </header>
+
+    <section class="card">
+      <img src="https://picsum.photos/seed/avatar/240" alt="Avatar" class="avatar" />
+      <h2 class="name">María López</h2>
+      <p class="role">Desarrolladora Frontend</p>
+
+      <div class="stats">
+        <div><strong>8</strong><span>Proyectos</span></div>
+        <div><strong>3</strong><span>Años</span></div>
+        <div><strong>24</strong><span>Commits</span></div>
+      </div>
+
+      <p id="bio" class="bio collapsed">
+        Apasionada por construir interfaces limpias y accesibles. Me gusta
+        aprender nuevas herramientas y compartir conocimiento.
+      </p>
+
+      <div class="actions">
+        <button id="toggleBio" class="btn">Leer más</button>
+        <a href="#" class="btn outline">Contactar</a>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <small>Demo — HTML • CSS • JavaScript</small>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
